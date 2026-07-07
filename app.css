@@ -1,14 +1,6 @@
-div.container{
-    display: flex;
-    flex: auto;
-}
-
-.btn{
-    align-items: center;
-}
-
-@media (max-width: 780px){
-    div.container{
-        flex-direction: column;
-    }
+.heroImg {
+    margin: 30px auto;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
 }

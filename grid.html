@@ -5,20 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="app.css">
-    <title>Document</title>
+    <title>Grid</title>
 </head>
 <body>
-    <div class="d-flex justify-content-center mt-3">
-      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-        <div class="btn-group">
-          <a href="/index.html" class="btn btn-primary" aria-current="page">Home</a>
-          <a href="#" class="btn btn-primary active">Grid</a>
-          <a href="#" class="btn btn-primary">Link</a>
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+
+        <div class="container-fluid">
+
+            <a href="/index.html" class="navbar-brand">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/960px-Bootstrap_logo.svg.png" alt="Bootstrap_logo" width="30" height="24" class="d-inline-block align-text-top">
+                index
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Grid</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/studyCase.html" class="nav-link">Study Case</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/form.html" class="nav-link">Form</a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-    
-    
+    </nav>
+
     <div class="container-md">
         <div class="row">
             <div class="col col-md-6 col-lg-3 bg-primary"> Primary</div>
@@ -28,15 +54,15 @@
         
         <div class="row">
             <div class="col-xl-4">
-                <img src="https://images.unsplash.com/photo-1783002933119-88146a5fce07?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ee oo" class="img-fluid">
+                <img src="https://images.unsplash.com/photo-1783002933119-88146a5fce07?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ee oo" class="img-fluid heroImg   ">
+            </div> 
+
+            <div class="col-xl-4">
+                <img src="https://images.unsplash.com/photo-1782329566851-c0748a5577b6?q=80&w=755&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ee oo" class="img-fluid heroImg">
             </div>
 
             <div class="col-xl-4">
-                <img src="https://images.unsplash.com/photo-1782329566851-c0748a5577b6?q=80&w=755&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ee oo" class="img-fluid">
-            </div>
-
-            <div class="col-xl-4">
-                <img src="https://plus.unsplash.com/premium_photo-1780314442741-4a4700317392?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ee oo" class="img-fluid">
+                <img src="https://plus.unsplash.com/premium_photo-1780314442741-4a4700317392?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ee oo" class="img-fluid heroImg">
             </div>
 
         </div>
